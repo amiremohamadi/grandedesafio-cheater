@@ -8,13 +8,12 @@ from sys import argv
 from time import sleep
 from selenium import webdriver
 
-# Initilize
+# Set webdriver
 driver = webdriver.Firefox(executable_path='path/to/your/webdriver')
 
 website_url, name = argv[1], argv[2]
 driver.get(website_url)
 
-# Set name and start!
 name_field = driver.find_element_by_id('name')
 name_field.clear()
 name_field.send_keys(name)
