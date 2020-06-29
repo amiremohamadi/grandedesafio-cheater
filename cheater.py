@@ -1,7 +1,6 @@
 # Author: Amir Mohammadi
 # @amiremohamadi
-# Simple cheater for https://grandedesafio.com
-# Become the top scorer!! :)
+# Cheater for https://grandedesafio.com
 # Usage: python cheater.py {url} {name}
 
 from sys import argv
